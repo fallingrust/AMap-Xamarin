@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.DistrictItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.GeoFence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.GeoFenceClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.IGeoFenceListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.IGeoFenceManagerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Fence.PoiItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IAMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.ICircle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IGroundOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IMapFragmentDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IMarker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IPolygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IPolyline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IProjection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IText.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.ITileOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.IUiSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Interfaces.MapCameraMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.AMapLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.AMapLocationClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.AMapLocationClientOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.AMapLocationQualityReport.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.APSService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.CoordinateConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.CoordUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.DPoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.IAMapLocationListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.IAPSServiceBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.ILocationManagerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Location.UmidtokenInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.AMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.AMapException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.AMapOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.AMapOptionsCreator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.AMapUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.CameraUpdate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.CameraUpdateFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.CoordinateConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.ILocationSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.MapFragment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.MapsInitializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.MapView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.BitmapDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.BitmapDescriptorFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.CameraPosition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Circle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.CircleOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.GroundOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.GroundOverlayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.ITileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.LatLng.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.LatLngBounds.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Marker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.MarkerOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.MyLocationStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.MyLocationStyleCreator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.MyTrafficStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.NaviPara.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.PoiPara.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Polygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.PolygonOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Polyline.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.PolylineOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.RoutePara.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.RuntimeRemoteException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Text.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.TextOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.TextOptionsCreator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.Tile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.TileOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.TileOverlayOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.UrlTileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Model.VisibleRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Overlay.BusLineOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Overlay.PoiOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.Projection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Amap.Api.Maps2d.UiSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Autonavi.Amap.Mapcore2d.IInner_3dMap_locationListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Autonavi.Amap.Mapcore2d.IInner_3dMap_locationManagerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Autonavi.Amap.Mapcore2d.Inner_3dMap_location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Com.Autonavi.Amap.Mapcore2d.Inner_3dMap_locationOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)\__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

@@ -1,0 +1,5 @@
+C:\Users\23722\source\repos\AMap\AMap\obj\Debug\AMap.csproj.CoreCompileInputs.cache
+C:\Users\23722\source\repos\AMap\AMap\bin\Debug\AMap.dll
+C:\Users\23722\source\repos\AMap\AMap\bin\Debug\AMap.pdb
+C:\Users\23722\source\repos\AMap\AMap\obj\Debug\AMap.dll
+C:\Users\23722\source\repos\AMap\AMap\obj\Debug\AMap.pdb

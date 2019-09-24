@@ -1,0 +1,7 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.fence", Managed="Com.Amap.Api.Fence")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.interfaces", Managed="Com.Amap.Api.Interfaces")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.location", Managed="Com.Amap.Api.Location")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.maps2d", Managed="Com.Amap.Api.Maps2d")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.maps2d.model", Managed="Com.Amap.Api.Maps2d.Model")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.amap.api.maps2d.overlay", Managed="Com.Amap.Api.Maps2d.Overlay")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.autonavi.amap.mapcore2d", Managed="Com.Autonavi.Amap.Mapcore2d")]

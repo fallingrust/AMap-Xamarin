@@ -1,0 +1,9 @@
+com.amap.api.interfaces.MapCameraMessage$Type:Com.Amap.Api.Interfaces:MapCameraMessage.Type
+com.amap.api.location.AMapLocationClientOption$AMapLocationMode:Com.Amap.Api.Location:AMapLocationClientOption.AMapLocationMode
+com.amap.api.location.AMapLocationClientOption$AMapLocationProtocol:Com.Amap.Api.Location:AMapLocationClientOption.AMapLocationProtocol
+com.amap.api.location.AMapLocationClientOption$AMapLocationPurpose:Com.Amap.Api.Location:AMapLocationClientOption.AMapLocationPurpose
+com.amap.api.location.AMapLocationClientOption$GeoLanguage:Com.Amap.Api.Location:AMapLocationClientOption.GeoLanguage
+com.amap.api.location.CoordinateConverter$CoordType:Com.Amap.Api.Location:CoordinateConverter.CoordType
+com.amap.api.maps2d.CoordinateConverter$CoordType:Com.Amap.Api.Maps2d:CoordinateConverter.CoordType
+com.autonavi.amap.mapcore2d.Inner_3dMap_locationOption$Inner_3dMap_Enum_LocationMode:Com.Autonavi.Amap.Mapcore2d:Inner_3dMap_locationOption.Inner_3dMap_Enum_LocationMode
+com.autonavi.amap.mapcore2d.Inner_3dMap_locationOption$Inner_3dMap_Enum_LocationProtocol:Com.Autonavi.Amap.Mapcore2d:Inner_3dMap_locationOption.Inner_3dMap_Enum_LocationProtocol
